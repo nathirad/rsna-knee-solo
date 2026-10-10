@@ -1,0 +1,17 @@
+# secrets
+kaggle.json
+*.env
+# competition data and anything derived from it per study
+data/
+runs/solo/
+*.csv
+# weights, features, caches
+*.pt
+*.npz
+*.npy
+*.zip
+# local
+__pycache__/
+.DS_Store
+.claude/
+.vscode/
