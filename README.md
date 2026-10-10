@@ -82,8 +82,10 @@ kaggle/rsna-knee-raptor/      ดึง feature และทดลองหั�
 kaggle/rsna-knee-solo/        โมเดลของเราเอง: ตัวโมเดลและเส้นทางตอนส่ง
 kaggle/rsna-knee-train-solo/  เทรนโมเดลของเราเอง
 kaggle/rsna-knee-base-probe/  รัน pipeline สำหรับส่งบนเคส gold เพื่อวัดผล
+kaggle/rsna-knee-m448-blend/  ลองผสม reader สาธารณะอีกตัวเข้า pipeline 0.943 (4 ต.ค., ได้ 0.942 จึงเลิก)
 kaggle/push_retry.sh          push kernel ซ้ำจนกว่า session จะเริ่มจริง
 kaggle/watch_jobs.py          หน้าดูสถานะงานและ submission ใน terminal
+.vscode/tasks.json            เปิดโฟลเดอร์ใน VS Code แล้วหน้าดูสถานะงานขึ้นใน Terminal เอง
 research/                     calibration ของ label, การทดลองหัว, สคริปต์ validate
 runs/LOG.md                   บันทึกทุกรอบ: ตั้งค่า, ผล validate, เวลา, คะแนน
 docs/                         รายงาน validate (5 ต.ค.) และสรุปงานวิจัยที่เกี่ยวข้อง (9 ต.ค.)

@@ -1,0 +1,18 @@
+{
+  // Live view of our Kaggle jobs and submissions in VS Code's Terminal panel (read-only, refreshes every minute).
+  // It starts when this folder is opened in VS Code; run it again with Terminal > Run Task, or Cmd+Shift+B.
+  // To stop it from starting by itself, delete the "runOptions" line.
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Kaggle jobs (live)",
+      "type": "shell",
+      "command": "python3 kaggle/watch_jobs.py rsna-knee-gpjw-train-r6 rsna-knee-gpjw-train-r7",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated", "focus": true, "clear": true },
+      "runOptions": { "runOn": "folderOpen" },
+      "group": { "kind": "build", "isDefault": true }
+    }
+  ]
+}
